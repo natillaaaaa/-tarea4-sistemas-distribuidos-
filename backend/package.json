@@ -1,0 +1,14 @@
+{
+  "name": "bookstore-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Funciones Netlify del bookstore con PostgreSQL y RabbitMQ (CloudAMQP)",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "pg": "^8.13.0"
+  }
+}
